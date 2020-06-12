@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1542120526-89a7039730ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .keys {
+
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .key {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 16px;
+    transition: 400ms;
+    width: 120px;
+    height: 192px;
+    color: black;
+    background: white;
+    padding: 8px;
+
+  }
+
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 8px #ffc600;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 64px;
+  }
+  
+  .sound {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+  }
